@@ -52,7 +52,7 @@ def show_banner():
 :!:       :!:  !:!    :!:    :!:         :!:    :!:    !:!       :!:    :!:  !:!      !:!   
  ::: :::  ::   :::     ::     ::          ::    ::::::: ::        ::     :::: ::  :::: ::   
  :: :: :   :   : :     :      :           :      : : :  :         :     :: :  :   :: : :      
-                          {b}Crypt0 TDS MadCat Mailer v1.1{z}
+                          {b}Crypt0 TDS Mailer v1.1{z}
                 Made by {b}Crypt0 TDS{z} for BEC professionals: {b}t.me/crypt0TDS{z} 
           
 	"""
