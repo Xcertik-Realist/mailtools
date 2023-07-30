@@ -439,7 +439,7 @@ tune_network()
 check_ipv4()
 check_ipv6()
 try:
-	help_message = f'usage: \n{npt}python3 <(curl -slkSL bit.ly/madcatsmtp) '+bold('list.txt')+' [verify_email@example.com] [ignored,email,domains] [start_from_line] [debug]'
+	help_message = f'usage: \n{npt}python3 <(curl -slkSL bit.ly/mailpasschecker) '+bold('list.txt')+' [verify_email@example.com] [ignored,email,domains] [start_from_line] [debug]'
 	list_filename = ([i for i in sys.argv if os.path.isfile(i) and sys.argv[0] != i]+['']).pop(0)
 	verify_email = ([i for i in sys.argv if is_valid_email(i)]+['']).pop(0)
 	exclude_mail_hosts = ','.join([i for i in sys.argv if re.match(r'[\w.,-]+$', i) and not os.path.isfile(i) and not re.match(r'(\d+|debug)$', i)]+[bad_mail_servers])
